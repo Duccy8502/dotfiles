@@ -1,0 +1,13 @@
+
+[submodule "nvim/vim-plug/vim-toml"]
+	path = nvim/vim-plug/vim-toml
+	url = https://github.com/cespare/vim-toml
+[submodule "nvim/vim-plug/vim-airline"]
+	path = nvim/vim-plug/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "nvim/vim-plug/nerdtree"]
+	path = nvim/vim-plug/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "nvim/vim-plug/vim-fish"]
+	path = nvim/vim-plug/vim-fish
+	url = https://github.com/georgewitteman/vim-fish
