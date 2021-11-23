@@ -1,0 +1,5 @@
+# monitor config
+output HDMI-A-1 resolution 1920x1080 position 0,0
+
+# set wallpaper
+output * bg `shuf -en1 /home/user/.wallpapers/.safe/*` fill
