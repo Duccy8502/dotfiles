@@ -16,7 +16,7 @@ bindsym $mod+k split toggle
 # Start Programs ###############################################################
 ################################################################################
 
-# Start wofi
+# Start rofi
 bindsym $mod+e exec "rofi -fuzzy -modi drun,run -show drun"
 
 # Drag floating windows by holding down $mod and left mouse button.

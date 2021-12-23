@@ -13,13 +13,13 @@
 
 set $mod Mod1
 
-# set primary and secondary terminal
+# set primary, secondary, and tertiary terminals
 set $term alacritty
 set $term2 kitty
-set $term3 /home/user/Git/st/st
+set $term3 ~/git/st/st
 
 # set primary browser
-set $browser 'env MOZ_ENABLE_WAYLAND=1 firefox'
+set $browser 'firefox'
 
 # set terminal multiplexer
 set $multiplex tmux
@@ -28,7 +28,7 @@ set $multiplex tmux
 set $scrshot 'sleep 0.2; grimshot copy area'
 
 # set status bar
-set $bar waybar
+set $bar polybar
 
 set $up Up
 set $down Down
