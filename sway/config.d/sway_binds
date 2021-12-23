@@ -33,7 +33,7 @@ bindsym $mod+Shift+p reload
 bindsym $mod+l exec swaylock
 
 # Screenshot
-bindsym F12 exec $scrshot
+bindsym Print exec $scrshot
 
 # Exit sway (logs you out of your Wayland session)
 bindsym $mod+Shift+Period exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'

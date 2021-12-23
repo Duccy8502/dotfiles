@@ -11,3 +11,9 @@
 [submodule "nvim/vim-plug/vim-fish"]
 	path = nvim/vim-plug/vim-fish
 	url = https://github.com/georgewitteman/vim-fish
+[submodule "nvim/vim-plug/vim-wakatime"]
+	path = nvim/vim-plug/vim-wakatime
+	url = https://github.com/wakatime/vim-wakatime
+[submodule "nvim/vim-plug/nvim-treesitter"]
+	path = nvim/vim-plug/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter

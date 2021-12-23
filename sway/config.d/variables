@@ -25,7 +25,7 @@ set $browser 'env MOZ_ENABLE_WAYLAND=1 firefox'
 set $multiplex tmux
 
 # set screenshot utility
-set $scrshot 'grimshot copy area'
+set $scrshot 'sleep 0.2; grimshot copy area'
 
 # set status bar
 set $bar waybar
