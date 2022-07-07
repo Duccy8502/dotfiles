@@ -1,6 +1,6 @@
 exec --no-startup-id pipewire
 exec --no-startup-id pipewire-pulse
-exec --no-startup-id mako
-exec dbus-daemon --session --address=unix:path=$XDG_RUNTIME_DIR/bus
-exec xhost +SI:localuser:root
-exec sed 's/Exec=firefox/Exec=env MOZ_ENABLE_WAYLAND=1 firefox/g' -i /home/user/.local/share/applications/firefox.desktop
+#exec --no-startup-id mako
+#exec dbus-daemon --session --address=unix:path=$XDG_RUNTIME_DIR/bus
+#exec xhost +SI:localuser:root
+#exec sed 's/Exec=firefox/Exec=env MOZ_ENABLE_WAYLAND=1 firefox/g' -i /home/user/.local/share/applications/firefox.desktop
