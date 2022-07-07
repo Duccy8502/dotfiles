@@ -28,5 +28,4 @@ function fish_prompt --description 'Write out the prompt'
     set -l prompt_status (__fish_print_pipestatus "[" "]" "|" "$status_color" "$statusb_color" $last_pipestatus)
 
     echo -n -s (prompt_login)' ' (set_color $color_cwd) (prompt_pwd) $normal (fish_vcs_prompt) $normal " "$prompt_status $suffix " "
-	wakatime --write --plugin "fish-wakatime/0.0.1" --entity-type app --project "Terminal" --entity (echo $history[1] | cut -d ' ' -f1) 2>&1 > /dev/null&
 end
