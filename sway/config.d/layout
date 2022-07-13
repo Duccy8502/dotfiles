@@ -1,8 +1,0 @@
-for_window [app_id="firefox"] opacity 0.95
-assign [app_id="firefox"] "2: Browser"
-for_window [app_id="firefox" title="Picture-in-Picture"] floating enable; sticky enable
-
-assign [app_id="discord"] "3: Discord"
-
-for_window [app_id="sublime_text"] floating enable
-for_window [class="Tor Browser"] floating enable, borders normal

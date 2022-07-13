@@ -1,6 +1,0 @@
-default_border pixel 2
-default_floating_border pixel 2
-hide_edge_borders both
-
-gaps outer 8
-gaps inner 3

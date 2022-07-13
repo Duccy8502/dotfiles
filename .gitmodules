@@ -17,3 +17,6 @@
 [submodule "nvim/vim-plug/nvim-treesitter"]
 	path = nvim/vim-plug/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter
+[submodule "nvim/vim-plug/catppuccin"]
+	path = nvim/vim-plug/catppuccin
+	url = https://github.com/catppuccin/nvim

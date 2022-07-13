@@ -1,9 +1,10 @@
 " Plugins
 	call plug#begin('/home/user/.config/nvim/vim-plug')
-		Plug 'preservim/nerdtree'				" File browser
-		Plug 'vim-airline/vim-airline'			" Statusline
-		Plug 'wakatime/vim-wakatime'			" Time tracker
+		Plug 'preservim/nerdtree'						" File browser
+		Plug 'vim-airline/vim-airline'					" Statusline
+		Plug 'wakatime/vim-wakatime'					" Time tracker
 		Plug 'nvim-treesitter/nvim-treesitter',{'do':':TSUpdate'} " Smart syntax highlighting
+		Plug 'catppuccin/nvim', {'as': 'catppuccin'}	" Catppuccin theme
 	call plug#end()
 
 lua <<EOF
@@ -35,8 +36,19 @@ lua <<EOF
 			"yaml",
 		},
 	}
+
+	local catppuccin_settings = {
+		transparent_background = true,
+		term_colors = true,
+	}
+
+	local catppuccin = require("catppuccin")
+	catppuccin.setup(catppuccin_settings)
 EOF
 
+" Theme
+	let g:catppuccin_flavour = "mocha" " latte, frappe, macchiato, mocha
+	colorscheme catppuccin
 
 " Includes
 	" File settings (tabs, syntax, etc)
